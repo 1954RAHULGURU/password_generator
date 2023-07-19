@@ -1,0 +1,80 @@
+body {
+  /* background-color: #333; */
+  background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?w=996&t=st=1689759639~exp=1689760239~hmac=4a7da96143ff3880966c0cd649feee2ed36f182dd0d667c508a1e4113682b74b");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Tektur;
+}
+
+.container {
+  background-color: #1387d6;
+  padding: 4rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.character-amount-container {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  width: 2rem;
+}
+
+.password-display {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border: 1px solid #333;
+  height: 2rem;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  grid-column: span 2;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background-color: #ffffff33;
+}
